@@ -6,3 +6,4 @@ for T in range(int(input())):
         if i>K:
             add+=i-K
     print(add)
+    
