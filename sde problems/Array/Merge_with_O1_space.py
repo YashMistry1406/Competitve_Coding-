@@ -46,11 +46,3 @@
 # METHOD 2 - GAP kind of shell sort
 #formula for GAP method is = n1+n2 / 2 , choose ceiling value for a decimal number
 
-import math
-def solve(l1,l2):
-    n=len(l1)
-    m=len(l2)
-
-    gap=math.ceil((n+m)/2)
-
-    while gap != 1:
